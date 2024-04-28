@@ -69,5 +69,25 @@ button:hover {
 }
 
 .error {
-  color: red;
+  color: rgb(204, 21, 21);
+}
+.back-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #070707; /* Màu chữ */
+  padding: 10px; /* Tăng độ dày để tạo không gian xung quanh biểu tượng */
+}
+
+.back-link svg {
+  width: 24px; /* Đặt kích thước chiều rộng */
+  height: 24px; /* Đặt kích thước chiều cao */
+  margin-right: 5px; /* Khoảng cách giữa biểu tượng và chữ */
+}
+
+.back-link:hover {
+  color: #008fd5; /* Màu chữ khi hover */
 }
